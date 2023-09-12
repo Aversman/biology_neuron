@@ -1,0 +1,32 @@
+[
+  {
+    "Layer": 0,
+    "Synapses": [1, 0, 1],
+    "Limit": 3
+  },
+  {
+    "Layer": 1,
+    "Synapses": [1, 1],
+    "Limit": 2
+  },
+  {
+    "Layer": 1,
+    "Synapses": [1, 0],
+    "Limit": 5
+  },
+  {
+    "Layer": 1,
+    "Synapses": [0, 1],
+    "Limit": 0
+  },
+  {
+    "Layer": 2,
+    "Synapses": [0, 1, 1],
+    "Limit": 4
+  },
+  {
+    "Layer": 2,
+    "Synapses": [1, 1],
+    "Limit": 3
+  }
+]

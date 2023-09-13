@@ -10,11 +10,11 @@ class NeuronException : Exception {
 }
 
 sealed class Neuron {
-  public int Layer { get; set; }
   public int Limit { get; set; }
   public int[]? Synapses { get; set; }
-  int output = 0;
-  void ExecProcess(int[] input) {
+  public int[]? Connectors { get; set; }
+  public int Output = 0;
+  public void ExecProcess(int[] input) {
     int counter = 0;
     if (Synapses == null) {
       throw new NeuronException("Synapses are not specified");
@@ -24,21 +24,15 @@ sealed class Neuron {
     }
     for (int i = 0; i < input.Length; i++) {
       if (Synapses[i] == 0 & input[i] == 1) {
-        output = 0;
+        Output = 0;
         return;
       }
       counter += input[i];
     }
     if (counter >= Limit) {
-      output = 1;
+      Output = 1;
       return;
     }
-    output = 0;
-  }
-  public int GetOutput(int[] input) {
-    ExecProcess(input);
-    // Debug
-    Console.WriteLine(output);
-    return output;
+    Output = 0;
   }
 }

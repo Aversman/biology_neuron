@@ -1,32 +1,32 @@
 [
   {
-    "Layer": 0,
-    "Synapses": [1, 0, 1],
-    "Limit": 3
+    "Synapses": [1, 1, 0],
+    "Limit": 3,
+    "Connectors": [1, 2]
   },
   {
-    "Layer": 1,
-    "Synapses": [1, 1],
-    "Limit": 2
+    "Synapses": [1, 1, 1],
+    "Limit": 2,
+    "Connectors": [3, 4]
   },
   {
-    "Layer": 1,
     "Synapses": [1, 0],
-    "Limit": 5
+    "Limit": 0,
+    "Connectors": []
   },
   {
-    "Layer": 1,
     "Synapses": [0, 1],
-    "Limit": 0
+    "Limit": 1,
+    "Connectors": [5, 4]
   },
   {
-    "Layer": 2,
-    "Synapses": [0, 1, 1],
-    "Limit": 4
-  },
-  {
-    "Layer": 2,
     "Synapses": [1, 1],
-    "Limit": 3
+    "Limit": 1,
+    "Connectors": []
+  },
+  {
+    "Synapses": [1],
+    "Limit": 1,
+    "Connectors": []
   }
 ]

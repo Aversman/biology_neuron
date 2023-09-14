@@ -1,31 +1,21 @@
 [
   {
-    "Synapses": [1, 1, 0],
-    "Limit": 3,
-    "Connectors": [1, 2]
-  },
-  {
-    "Synapses": [1, 1, 1],
+    "Synapses": [1, 1, 1, 0],
     "Limit": 2,
-    "Connectors": [3, 4]
-  },
-  {
-    "Synapses": [1, 0],
-    "Limit": 0,
-    "Connectors": []
-  },
-  {
-    "Synapses": [0, 1],
-    "Limit": 1,
-    "Connectors": [5, 4]
+    "Connectors": [3, 1, 2]
   },
   {
     "Synapses": [1, 1],
     "Limit": 1,
-    "Connectors": []
+    "Connectors": [3]
   },
   {
     "Synapses": [1],
+    "Limit": 1,
+    "Connectors": [3]
+  },
+  {
+    "Synapses": [1, 0],
     "Limit": 1,
     "Connectors": []
   }
